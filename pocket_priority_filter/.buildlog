@@ -1,0 +1,134 @@
+---
+build.dart --machine --full
+
+build.dart finished [3181 ms]
+
+---
+build.dart --machine --changed=web\list.html
+
+build.dart finished [2524 ms]
+
+---
+build.dart --machine --changed=web\list.dart
+
+build.dart finished [2476 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2181 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [2101 ms]
+
+---
+build.dart --machine --changed=web\list.dart
+
+build.dart finished [2533 ms]
+
+---
+build.dart --machine --changed=web\link.html
+
+build.dart finished [2475 ms]
+
+---
+build.dart --machine --changed=web\link.html
+
+build.dart finished [2562 ms]
+
+---
+build.dart --machine --changed=web\pocket-item.html --removed=web\link.html
+
+build.dart finished [2414 ms]
+
+---
+build.dart --machine --changed=web\pocket-item.dart
+
+build.dart finished [2420 ms]
+
+---
+build.dart --machine --changed=web\list.html
+[{"method":"warning","params":{"file":"web/list.html","message":"html needs to be the first start tag.","line":21,"charStart":427,"charEnd":433}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Unexpected start tag (head). Expected end of file.","line":22,"charStart":436,"charEnd":442}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Unexpected start tag head. Ignored.","line":22,"charStart":436,"charEnd":442}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Unexpected end tag (head). Ignored.","line":32,"charStart":797,"charEnd":804}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Unexpected start tag (body).","line":33,"charStart":807,"charEnd":813}}]
+[{"method":"error","params":{"file":"web/list.html","message":"couldn't find imported asset \"web/status.html\" in package \"pocket_priority_filter\".","line":28,"charStart":599,"charEnd":637}}]
+[{"method":"error","params":{"file":"web/list.html","message":"couldn't find imported asset \"web/settings.html\" in package \"pocket_priority_filter\".","line":29,"charStart":642,"charEnd":682}}]
+[{"method":"error","params":{"file":"web/list.html","message":"couldn't find imported asset \"web/environments.html\" in package \"pocket_priority_filter\".","line":30,"charStart":687,"charEnd":731}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Move HTML imports above your Dart script tag.","line":28,"charStart":599,"charEnd":637}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Move HTML imports above your Dart script tag.","line":29,"charStart":642,"charEnd":682}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Move HTML imports above your Dart script tag.","line":30,"charStart":687,"charEnd":731}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":31,"charStart":736,"charEnd":785}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"definition for Polymer element with tag name \"iforms-status\" not found.","line":34,"charStart":822,"charEnd":851}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"definition for Polymer element with tag name \"iforms-settings\" not found.","line":35,"charStart":876,"charEnd":908}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"definition for Polymer element with tag name \"iforms-environments\" not found.","line":36,"charStart":935,"charEnd":976}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"definition for Polymer element with tag name \"iforms-settings\" not found.","line":38,"charStart":1016,"charEnd":1049}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":39,"charStart":1072,"charEnd":1122}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":40,"charStart":1136,"charEnd":1188}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":41,"charStart":1202,"charEnd":1258}}]
+build.dart finished [2540 ms]
+
+---
+build.dart --machine --changed=web\list.html
+[{"method":"error","params":{"file":"web/list.html","message":"couldn't find imported asset \"web/pocket-import.html\" in package \"pocket_priority_filter\".","line":8,"charStart":148,"charEnd":193}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"definition for Polymer element with tag name \"pocket-item\" not found.","line":13,"charStart":284,"charEnd":316}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":335,"charEnd":385}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"\"application/dart\" scripts should use the .dart file extension.","line":14,"charStart":335,"charEnd":385}}]
+build.dart finished [2551 ms]
+
+---
+build.dart --machine --changed=web\list.html
+[{"method":"error","params":{"file":"web/list.html","message":"couldn't find imported asset \"web/pocket-import.html\" in package \"pocket_priority_filter\".","line":8,"charStart":148,"charEnd":193}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"definition for Polymer element with tag name \"pocket-item\" not found.","line":13,"charStart":284,"charEnd":316}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":335,"charEnd":390}}]
+build.dart finished [2402 ms]
+
+---
+build.dart --machine --changed=web\list.html
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+build.dart finished [2342 ms]
+
+---
+build.dart --machine --changed=web\list.html
+
+build.dart finished [2463 ms]
+
+---
+build.dart --machine --changed=web\list.html
+
+build.dart finished [2443 ms]
+
+---
+build.dart --machine --changed=web\pocket-item.dart
+
+build.dart finished [2452 ms]
+
+---
+build.dart --machine --changed=web\list.html
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+build.dart finished [2327 ms]
+
+---
+build.dart --machine --changed=web\index.dart
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+build.dart finished [2549 ms]
+
+---
+build.dart --machine --changed=web\index.dart
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+build.dart finished [3343 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+build.dart finished [3265 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/list.html","message":"Only one \"application/dart\" script tag per document is allowed.","line":14,"charStart":333,"charEnd":388}}]
+build.dart finished [2515 ms]
+

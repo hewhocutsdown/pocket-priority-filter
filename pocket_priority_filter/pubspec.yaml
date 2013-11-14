@@ -1,0 +1,8 @@
+name: pocket_priority_filter
+description: A sample Polymer application
+dependencies:
+  browser: any
+  polymer: any
+transformers:
+- polymer:
+    entry_points: web/pocket_priority_filter.html
