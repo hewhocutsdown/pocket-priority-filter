@@ -1,0 +1,21 @@
+<polymer-element name="pocket-items">
+  <template>
+    <style>
+      div {
+        font-size: 24pt;
+        text-align: center;
+        margin-top: 140px;
+      }
+      button {
+        font-size: 24pt;
+        margin-bottom: 20px;
+      }
+    </style>
+    <div>
+      <template repeat="{{item in itemList}}">
+        <div><a href="{{item.values["given_url"]}}">{{item.values["given_title"]}}</a></div>
+      </template>
+    </div>
+  </template>
+  <script type="application/dart" src="pocketitem.dart"></script>
+</polymer-element>
