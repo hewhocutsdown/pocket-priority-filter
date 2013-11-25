@@ -192,3 +192,13 @@ build.dart --machine --changed=web\pocketitem.dart
 [{"method":"warning","params":{"file":"web/pocketitem.html","message":"Invalid character in attribute name","line":16,"charStart":323,"charEnd":361}}]
 build.dart finished [5074 ms]
 
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/pocketitem.html","message":"Unexpected character after attribute value.","line":16,"charStart":323,"charEnd":348}}]
+[{"method":"warning","params":{"file":"web/pocketitem.html","message":"Invalid character in attribute name","line":16,"charStart":323,"charEnd":357}}]
+[{"method":"warning","params":{"file":"web/pocketitem.html","message":"Invalid character in attribute name","line":16,"charStart":323,"charEnd":361}}]
+[{"method":"warning","params":{"file":"web/pocketitem.html","message":"Unexpected character after attribute value.","line":16,"charStart":323,"charEnd":348}}]
+[{"method":"warning","params":{"file":"web/pocketitem.html","message":"Invalid character in attribute name","line":16,"charStart":323,"charEnd":357}}]
+[{"method":"warning","params":{"file":"web/pocketitem.html","message":"Invalid character in attribute name","line":16,"charStart":323,"charEnd":361}}]
+build.dart finished [4035 ms]
+
